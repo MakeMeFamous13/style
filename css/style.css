@@ -1,0 +1,326 @@
+@font-face {
+    font-family: 'metropolisregular';
+    src: url('../fonts/metropolis-regular-webfont.eot');
+    src: url('../fonts/metropolis-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/metropolis-regular-webfont.woff2') format('woff2'),
+         url('../fonts/metropolis-regular-webfont.woff') format('woff'),
+         url('../fonts/metropolis-regular-webfont.ttf') format('truetype'),
+         url('../fonts/metropolis-regular-webfont.svg#metropolisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'metropolisbold';
+    src: url('../fonts/metropolis-bold-webfont.eot');
+    src: url('../fonts/metropolis-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/metropolis-bold-webfont.woff2') format('woff2'),
+         url('../fonts/metropolis-bold-webfont.woff') format('woff'),
+         url('../fonts/metropolis-bold-webfont.ttf') format('truetype'),
+         url('../fonts/metropolis-bold-webfont.svg#metropolisbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'metropolismedium';
+    src: url('../fonts/metropolis-medium-webfont.eot');
+    src: url('../fonts/metropolis-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/metropolis-medium-webfont.woff2') format('woff2'),
+         url('../fonts/metropolis-medium-webfont.woff') format('woff'),
+         url('../fonts/metropolis-medium-webfont.ttf') format('truetype'),
+         url('../fonts/metropolis-medium-webfont.svg#metropolismedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'metropolissemi_bold';
+    src: url('../fonts/metropolis-semibold-webfont.eot');
+    src: url('../fonts/metropolis-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/metropolis-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/metropolis-semibold-webfont.woff') format('woff'),
+         url('../fonts/metropolis-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/metropolis-semibold-webfont.svg#metropolissemi_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body {
+	height: 100%;
+}
+body {
+    background: #fff;
+    margin: 0;
+    font-family: 'metropolisregular';
+    color: #000000;
+    font-size: 18px;
+    overflow-x: hidden;
+    position: relative;
+}
+.clearfix:before,
+.clearfix:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+a:focus {
+    outline: none;
+}
+a {
+    text-decoration: none;
+}
+b {
+    font-family: 'pt_sansbold';
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+    color: transparent !important;
+}
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+    color: transparent !important;
+}
+input:focus:-moz-placeholder,
+textarea:focus:-moz-placeholder{
+    color: transparent !important;
+}
+input:focus,
+textarea:focus {
+    outline: none;
+}
+* {
+-webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+      box-sizing: border-box;
+}
+/* header */
+.header {
+    background: url(../images/header.jpg) no-repeat;
+    background-size: cover;
+    height: 672px;
+}
+.container {
+    width:1170px;
+    position: relative;
+    margin: 0 auto;
+}
+.header .container {
+    height: 100%;
+}
+.logo {
+    background: #6a62b0 url(../images/logo.svg) no-repeat 50% 50%;
+    width: 308px;
+    height:308px;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    display: block;
+    background-size: 210px 100px;
+    position: absolute;
+    left: 0;
+    bottom:-160px;
+    box-shadow: 0 10px 40px 3px #a5a5a5;
+}
+/* content */
+.content {
+    padding: 0 0 170px 0;
+}
+.coming-soon-box {
+    padding: 130px 0 120px;
+}
+h1 {
+    display: block;
+    text-align: center;
+    font-family: 'metropolisbold';
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #6a62b0;
+    margin-top: 0;
+}
+.cs-text {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0 0 50px 0;
+}
+.btn-std {
+    width:100%;
+    max-width: 273px;
+    margin: 0 auto;
+    height: 59px;
+    line-height: 59px;
+    display: block;
+    font-size: 22px;
+    color: #ffffff;
+    background: #6a62b0;
+    text-align: center;
+    font-family: 'metropolismedium';
+    text-transform: uppercase;
+}
+.btn-std:hover {
+    opacity: 0.7;
+}
+.sign-up-box {
+    background: #e8e8e8;
+    position: relative;
+    width:100%;
+    padding: 0;
+    height: 546px;
+}
+.sign-up-box .container {
+    position: static;
+    overflow: hidden;
+}
+.sign-up-box img {
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.sign-up {
+    padding: 65px 0 0 75px;
+    float: right;
+    margin: 0 120px 0 0;
+}
+.sign-up-title {
+    font-family: 'metropolissemi_bold';
+    display: block;
+    font-size: 24px;
+    margin: 0 0 50px 0;
+    color: #6a62b0;
+    text-transform: uppercase;
+}
+.steps-title {
+    display: block;
+    font-family: 'metropolismedium';
+    margin: 0 0 30px 0;
+    font-size: 22px;
+}
+.sign-complete {
+    font-family: 'metropolismedium';
+    display: block;
+    margin: 30px 0 50px;
+    font-size: 22px;
+}
+ol {
+    padding: 0 0 0 25px;
+}
+ol li {
+    margin: 10px 0;
+    font-size: 22px;
+}
+.sign-up .btn-std {
+    margin: 0;
+}
+h2 {
+    font-size: 24px;
+    color: #6a62b0;
+    text-transform: uppercase;
+    margin-top: 0;
+    font-family: 'metropolissemi_bold';
+    text-align: center;
+}
+.signing-steps {
+    padding: 80px 0 0 0;
+}
+.steps-list li {
+    float: left;
+    text-align: center;
+    width:25%;
+    padding: 0 30px;
+    position: relative;
+    font-family: 'metropolissemi_bold';
+}
+.steps-list li img {
+    margin: 0 auto 0;
+    display: block;
+}
+.steps-list .step-title {
+    display: block;
+    color: #322c6b;
+    text-transform: uppercase;
+}
+.step-img {
+    height: 100px;
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-box-align: end;
+    -webkit-align-items: end;
+    align-items: flex-end;
+    margin: 0 0 20px 0;
+    align-content: flex-end;
+}
+.steps-list li:after {
+    display: block;
+    content: '';
+    background: url(../images/plus.png) no-repeat;
+    width:15px;
+    height: 15px;
+    position: absolute;
+    right: -5px;
+    top: 115px;
+}
+.steps-list li:nth-child(3):after {
+    background: url(../images/equally.png) no-repeat;
+    width:15px;
+    height: 10px;
+    top: 120px;
+}
+.steps-list li:last-child:after {
+    display: none;
+}
+.steps-list {
+    overflow: hidden;
+}
+/* footer */
+.footer {
+    background: #959595;
+}
+.footer .container {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 60px;
+}
+.footer-list {
+    overflow: hidden;
+}
+.footer-list li {
+    float: left;
+    margin: 0 35px 0 0;
+}
+.footer-list li a {
+    color: #ffffff;
+}
+.footer-list li a:hover {
+    text-decoration: underline;
+}
+.footer-mail {
+    padding: 0 0 0 51px;
+    margin: 0 0 0 14px;
+    border-left: 1px solid #ffffff;
+    height: 30px;
+    line-height: 30px;
+}
+.footer-mail a {
+    color: #fff;
+    letter-spacing: 1px;
+}

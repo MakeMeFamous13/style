@@ -1,0 +1,271 @@
+@media (min-width:1344px) {
+    .logo {
+        left: -80px;
+    }
+    .header {
+        height: 772px;
+    }
+}
+@media (min-width:992px) and (max-width:1200px) {
+    .container {
+        width:950px;
+    }
+    .header {
+        height: 580px;
+    }
+    .logo {
+        height: 220px;
+        width:220px;
+        bottom: -85px;
+        background-size: 130px 63px;
+        left: 0;
+    }
+    .sign-up-box img {
+        width:550px;
+    }
+    .sign-up {
+        margin: 0 60px 0 0;
+        padding: 30px 0 0 30px;
+    }
+    .sign-up-title {
+        margin: 0 0 20px 0;
+    }
+    .sign-up-box {
+        height: 406px;
+    }
+    .sign-complete {
+        margin: 20px 0 30px;
+    }
+}
+@media (max-width:991px) {
+    .steps-list li:after {
+        display: none;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    body {
+        font-size: 14px;
+    }
+    .header {
+        height: 424px;
+    }
+    .container {
+        width:750px;
+    }
+    .logo {
+        height: 164px;
+        width:164px;
+        left:50%;
+        margin: 0 0 0 -82px;
+        bottom: -65px;
+        background-size: 110px 53px;
+    }
+    .coming-soon-box {
+        padding: 120px 0 60px;
+    }
+    h1 {    
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .cs-text {
+        font-size: 18px;
+        margin: 0 0 40px 0;
+    }
+    .btn-std {
+        max-width: 215px;
+        font-size: 16px;
+        height: 45px;
+        line-height: 45px;
+    }
+    .sign-up-box img {
+        width:375px;
+        height: 320px;
+    }
+    .sign-up-box {
+        height: 320px;
+    }
+    .sign-up {
+        margin: 0 60px 0 0;
+        padding: 30px 0 0 35px;
+    }
+    .sign-up-title {
+        font-size: 20px;
+        margin: 0 0 22px 0;
+    }
+    .steps-title {
+        font-size: 16px;
+        margin: 0 0 17px;
+    }
+    ol {
+        padding: 0 0 0 20px;
+    }
+    ol li {
+        margin: 7px 0;
+    }
+    .sign-complete {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+    ol li {
+        font-size: 16px;
+    }
+    .signing-steps {
+        padding: 45px 0 0;
+    }
+    .steps-list li {
+        width:50%;
+        padding: 0 15%;
+    }
+    .steps-list .step-title {
+        font-size: 16px;
+    }
+    .steps-list p {
+        font-size: 14px;
+    }
+    h2 {
+        margin-bottom: 40px;
+    }
+    .steps-list li {
+        margin: 0 0 40px;
+    }
+    .steps-list li:nth-child(3),
+    .steps-list li:nth-child(4) {
+        margin: 0;
+    }
+    .content {
+        padding: 0 0 35px;
+    }
+    .footer-list li {
+        margin: 0 27px 0 0;
+    }
+    .footer-mail {
+        padding: 0 0 0 30px;
+        margin: 0 0 0 9px;
+    }
+}
+@media (max-width:767px) {
+    body {
+        font-size: 16px;
+    }
+    .container {
+        width:100%;
+    }
+    .sign-up-box img {
+        max-width: 100%;
+        position: static;
+        display: block;
+    }
+    .header {
+        height: 208px;
+    }
+    .logo {
+        height: 101px;
+        width:101px;
+        left:50%;
+        margin: 0 0 0 -50px;
+        bottom: -51px;
+        background-size: 70px 33px;
+    }
+    .coming-soon-box {
+        padding: 90px 0 49px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .cs-text {
+        font-size: 16px;
+        margin: 0;
+    }
+    .hidden-xs {
+        display: none;
+    }
+    .sign-up {
+        padding: 40px 0 0 30px;
+        float: none;
+        margin: 0;
+    }
+    .sign-up-title {
+        margin: 0 0 25px;
+        font-size: 20px;
+    }
+    .steps-title {
+        font-size: 16px;
+        margin: 0 0 20px 0;
+    }
+    ol li {
+        font-size: 16px;
+        margin: 8px 0;
+    }
+    ol {
+        padding: 0 0 0 20px;
+    }
+    .sign-complete {
+        margin: 25px 0;
+        font-size: 16px;
+    }
+    .sign-up-box {
+        height: auto;
+        padding: 0 0 35px 0;
+    }
+    .sign-up .btn-std {
+        max-width: 215px;
+        font-size: 16px;
+    }
+    .signing-steps {
+        padding: 50px 0 0;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .steps-list li {
+        width:100%;
+    }
+    .content {
+        padding: 0 0 30px;
+    }
+    .step-img {
+        height: auto;
+    }
+    .steps-list li {
+        margin: 20px 0 0 0;
+        padding: 0 20%;
+    }
+    .steps-list li:first-child {
+        margin: 0;
+    }
+    .steps-list li {
+        font-size: 14px;
+    }
+    .footer .container {
+        height: auto;
+        padding: 20px 0;
+    }
+    .footer-list {
+        width:100%;
+        text-align: center;
+    }
+    .footer-list li {
+        font-size: 14px;
+        float: none;
+        margin: 0 15px;
+        display: inline-block;
+    }
+    .footer-mail {
+        padding: 0;
+        border: none;
+        float: none;
+        width:100%;
+        margin: 20px 0 0 0;
+        text-align: center;
+        height: auto;
+        line-height: 14px;
+    }
+}
+@media (min-width:710px) and (max-width:767px) {
+    
+}
+@media(min-width:600px) and (max-width: 709px) {
+    
+}
+@media (max-width: 479px){
+}
