@@ -53,23 +53,25 @@
         width:750px;
     }
     .logo {
-        height: 164px;
-        width:164px;
+        height: 39px;
+        width:83px;
         left:50%;
-        margin: 0 0 0 -82px;
         bottom: -65px;
         background-size: 110px 53px;
     }
     .coming-soon-box {
-        padding: 120px 0 60px;
+        padding: 34px 0 56px;
     }
     h1 {    
         font-size: 30px;
-        margin-bottom: 40px;
+        margin-bottom: 24px;
+    }
+    .header .comming-soon {
+        top: 239px;
     }
     .cs-text {
         font-size: 18px;
-        margin: 0 0 40px 0;
+        margin: 0 0 24px 0;
     }
     .btn-std {
         max-width: 215px;
@@ -156,18 +158,17 @@
         display: block;
     }
     .header {
-        height: 208px;
+        height: 408px;
     }
     .logo {
-        height: 101px;
-        width:101px;
+        height: 40px;
+        width: 80px;
         left:50%;
-        margin: 0 0 0 -50px;
         bottom: -51px;
         background-size: 70px 33px;
     }
     .coming-soon-box {
-        padding: 90px 0 49px;
+        padding: 13px 0 40px;
     }
     h1 {
         font-size: 24px;
@@ -261,11 +262,62 @@
         line-height: 14px;
     }
 }
-@media (min-width:710px) and (max-width:767px) {
-    
+
+@media (max-width: 480px) {
+    .header {
+        height: 408px;
+    }
+    .signing-steps h2 {
+        margin-bottom: 20px;
+    }
+    .logo {
+        margin: 15px;
+    }
+    .coming-soon-box p {
+        margin: 0 10px;
+        line-height: 36px;
+        letter-spacing: 1.3px;
+    }
+    .coming-soon-box h3 {
+        margin-top: 29px;
+    }
+
+    .only320 {
+        display: block;
+    }
+    .header .comming-soon {
+        display: none;
+    }
+    .only320 h2 {
+        margin-top: 18px;
+        margin-bottom: 29px;
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+    .only320 p {
+        text-align: center;
+        letter-spacing: 1.3px;
+        line-height: 24px;
+    }
+    .btn-std {
+        font-size: 16px;
+        height: 45px;
+        line-height: 45px;
+        margin-bottom: 50px;
+    }
+    .cs-text {
+        margin-top: 39px;
+        margin-bottom: 39px;    
+    }
+
+
 }
-@media(min-width:600px) and (max-width: 709px) {
-    
-}
-@media (max-width: 479px){
+@media (max-width:320px) {
+    .header {
+        height: 208px;
+    }
+    .logo {
+        height: 26px;
+        width: 57px;
+    }
 }

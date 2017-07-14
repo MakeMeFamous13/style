@@ -99,7 +99,17 @@ textarea:focus {
 .header {
     background: url(../images/header.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
     height: 672px;
+    position: relative;
+}
+.header .comming-soon{
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
 }
 .container {
     width:1170px;
@@ -110,25 +120,25 @@ textarea:focus {
     height: 100%;
 }
 .logo {
-    background: #6a62b0 url(../images/logo.svg) no-repeat 50% 50%;
-    width: 308px;
-    height:308px;
-    border-radius: 100%;
-    -moz-border-radius: 100%;
-    -webkit-border-radius: 100%;
-    display: block;
-    background-size: 210px 100px;
-    position: absolute;
-    left: 0;
-    bottom:-160px;
-    box-shadow: 0 10px 40px 3px #a5a5a5;
+   margin: 30px;
+   width: 150px;
+   float: left;
 }
 /* content */
 .content {
     padding: 0 0 170px 0;
 }
 .coming-soon-box {
-    padding: 130px 0 120px;
+    padding: 60px 0 60px;
+    background-color: #4C9FF7;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: 'metropolissemi_bold';
+}
+.coming-soon-box h3{
+    font-size: 24px;
+    margin: 0;
 }
 h1 {
     display: block;
@@ -136,16 +146,32 @@ h1 {
     font-family: 'metropolisbold';
     text-transform: uppercase;
     font-size: 36px;
-    color: #6a62b0;
+    color: #fff;
     margin-top: 0;
 }
 .cs-text {
     display: block;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     text-transform: uppercase;
-    color: #000000;
-    margin: 0 0 50px 0;
+    color: #fff;
+    margin: 35px 0 50px 0;
+    font-family: "metropolismedium";
+    line-height: 1.64;
+    letter-spacing: 1.8px;
+    font-weight: 600;
+}
+
+.stylist-link{
+    color: #fff;
+    text-decoration: underline;
+}
+.stylist-link:hover{
+    text-decoration: none;
+}
+.cs-text img{
+    width: 25px;
+
 }
 .btn-std {
     width:100%;
@@ -156,16 +182,16 @@ h1 {
     display: block;
     font-size: 22px;
     color: #ffffff;
-    background: #6a62b0;
+    background: #4C9FF7;
     text-align: center;
     font-family: 'metropolismedium';
     text-transform: uppercase;
 }
 .btn-std:hover {
-    opacity: 0.7;
+    background: #5a9dfc;;
 }
 .sign-up-box {
-    background: #e8e8e8;
+    background: #ffffff;
     position: relative;
     width:100%;
     padding: 0;
@@ -190,7 +216,7 @@ h1 {
     display: block;
     font-size: 24px;
     margin: 0 0 50px 0;
-    color: #6a62b0;
+    color: #418cf8;
     text-transform: uppercase;
 }
 .steps-title {
@@ -217,14 +243,15 @@ ol li {
 }
 h2 {
     font-size: 24px;
-    color: #6a62b0;
+    color: #418cf8;
     text-transform: uppercase;
     margin-top: 0;
     font-family: 'metropolissemi_bold';
     text-align: center;
+    margin-bottom: 120px;
 }
 .signing-steps {
-    padding: 80px 0 0 0;
+    padding: 60px 0 0 0;
 }
 .steps-list li {
     float: left;
@@ -240,7 +267,7 @@ h2 {
 }
 .steps-list .step-title {
     display: block;
-    color: #322c6b;
+    color: #0268fb;
     text-transform: uppercase;
 }
 .step-img {
@@ -323,4 +350,7 @@ h2 {
 .footer-mail a {
     color: #fff;
     letter-spacing: 1px;
+}
+.only320 {
+    display: none;
 }
